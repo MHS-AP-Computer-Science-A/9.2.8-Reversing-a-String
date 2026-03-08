@@ -1,11 +1,8 @@
 public class ReverseString {
 
     static String reverseString(String s){
-        if(s.length() > 0){
-            return s.substring(s.length()-1) + reverseString(s.substring(0, s.length()-1)) ;
-        }
 
-        return "";
+        return "";  // placeholder
     }
 
 
@@ -43,3 +40,4 @@ public class ReverseString {
         System.out.println();
     }
 }
+
